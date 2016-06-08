@@ -258,7 +258,7 @@ a {
 }
 
 .li {
-  transition: all 200ms ease-in;
+  /*transition: all 200ms ease-in;*/
 }
 
 .timestamp {
@@ -278,7 +278,7 @@ a {
   justify-content: center;
   border-top: 2px solid #D6DCE0;
   position: relative;
-  transition: all 200ms ease-in;
+  /*transition: all 200ms ease-in;*/
 }
 .status h4 {
   font-weight: 600;
@@ -293,7 +293,7 @@ a {
   position: absolute;
   top: -15px;
   left: 42%;
-  transition: all 200ms ease-in;
+  /*transition: all 200ms ease-in;*/
 }
 
 .li.complete .status {
@@ -302,7 +302,7 @@ a {
 .li.complete .status:before {
   background-color: #66DC71;
   border: none;
-  transition: all 200ms ease-in;
+  /*transition: all 200ms ease-in;*/
 }
 .li.complete .status h4 {
   color: #66DC71;
@@ -315,9 +315,9 @@ a {
   }
 
   .li {
-    transition: all 200ms ease-in;
+    /*transition: all 200ms ease-in;
     display: flex;
-    width: inherit;
+    width: inherit;*/
   }
 
   .timestamp {
@@ -327,6 +327,6 @@ a {
   .status:before {
     left: -8%;
     top: 30%;
-    transition: all 200ms ease-in;
+    /*transition: all 200ms ease-in;*/
   }
 }
