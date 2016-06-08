@@ -254,6 +254,7 @@ a {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  margin-bottom: -30px;
 }
 
 .timestamp {
@@ -317,5 +318,6 @@ a {
 }
 
 @media screen and (max-width: 42em) {
-  .timeline {
+  .timeline,
+  .timelineH3 {
     display: none;} }
