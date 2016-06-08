@@ -271,7 +271,9 @@ a {
 }
 
 .status {
-  padding: 0px 40px;
+  padding: 20px 50px;
+  font-size: .8em;
+  text-align: center;
   display: flex;
   justify-content: center;
   border-top: 2px solid #D6DCE0;
